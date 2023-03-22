@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
+    <title>Typing Speed Game</title>
+</head>
+
+<body>
+    <div class="game">
+        <h1 class="title">Typing Speed Game</h1>
+        <div class="container">
+            <div class="level">
+                <span>Choose The Level</span>
+                <button data-lvl="easy">Easy</button>
+                <button data-lvl="normal">Normal</button>
+                <button data-lvl="hard">Hard</button>
+            </div>
+            <div class="massage">You Are Playing On <span class="lvl"></span> Level & you have <span class="sec"></span>
+                Seconds</div>
+            <button class="start">Start Playing</button>
+            <input type="text" name="userWord">
+            <div class="upcoming-words">Upcoming Words Will Show Here</div>
+            <div class="control">
+                <div class="time">Time Left: <span></span> Seconds</div>
+                <div class="score">You Have Scored <span class="current-score">0</span> From <span class="total"></span>
+                </div>
+            </div>
+            <div class="guide">
+                <ul>
+                    <li class="one">You Are Playing On Level <span></span></li>
+                    <li class="two">You Have <span></span> To Type Each Word</li>
+                    <li class="three">The Total Number of Words is <span></span></li>
+                    <li class="four">If You Miss Any Word <span>Game over</span></li>
+                    <li class="four">You Have <span>+2</span> Seconds For The First Word Only To Catch The Game</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
